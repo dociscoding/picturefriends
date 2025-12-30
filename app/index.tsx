@@ -1,21 +1,13 @@
-import { View, Text, StyleSheet } from "react-native";
+import { useEffect } from "react";
+import { useRouter } from "expo-router";
 
 export default function Index() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Welcome to picturefriends</Text>
-    </View>
-  );
-}
+  const router = useRouter();
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#fff",
-  },
-  text: {
-    fontSize: 20,
-  },
-});
+  useEffect(() => {
+    // Start at login for now
+    router.replace("/(auth)/login");
+  }, []);
+
+  return null;
+}

@@ -12,14 +12,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "plugins": [
-      "expo-router"
-    ],
-    "ios": {
-      "bundleIdentifier": "com.anonymous.picturefriends"
-    },
-    "android": {
-      "package": "com.anonymous.picturefriends"
-    }
+    "plugins": ["expo-router"]
   }
 }
