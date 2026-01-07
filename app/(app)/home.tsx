@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>chapters.</Text>
+        <Text style={styles.title}>picturefriends.</Text>
       </View>
       <View style={styles.content}>
         <Text style={styles.text}>Welcome to your home screen</Text>

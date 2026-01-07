@@ -5,7 +5,7 @@ import React from "react";
 const AuthHeader = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>chapters.</Text>
+      <Text style={styles.text}>picturefriends.</Text>
     </View>
   );
 };
@@ -25,4 +25,3 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
-
